@@ -70,3 +70,17 @@ a {
   margin-bottom:3rem;
 }
 
+.fondo-img-1 {
+  /*background-image:url(../../assets/img/fondo1.jpg);*/
+  background-size:cover;
+  background-color:rgba(13,14,14,0.77);
+  -webkit-box-shadow:-4px 13px 117px 17px rgba(0,0,0,0.75);
+  -moz-box-shadow:-4px 13px 117px 17px rgba(0,0,0,0.75);
+  box-shadow:-4px 13px 117px 17px rgba(0,0,0,0.75);
+}
+
+.fondo-img-2 {
+  background-image:url(../../assets/img/fondo2.jpg);
+  background-size:cover;
+}
+
