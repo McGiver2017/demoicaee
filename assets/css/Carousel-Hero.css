@@ -60,9 +60,6 @@ a {
 }
 
 .text-mod2 {
-}
-
-.text-mod2 {
   color:#fff !important;
 }
 
@@ -82,5 +79,57 @@ a {
 .fondo-img-2 {
   background-image:url(../../assets/img/fondo2.jpg);
   background-size:cover;
+}
+
+body {
+  background-image:url(../../assets/img/fondo2.jpg);
+  /*background-repeat:no-repeat;*/
+  /*background-position:top;*/
+  /*background-repeat:no-repeat;*/
+  /*background-position:center center;*/
+  /*background-attachment:fixed;*/
+  background-attachment:fixed;
+}
+
+table {
+  background:#1f2021;
+  /*color:white;*/
+}
+
+.fa-mod {
+}
+
+.fa-mod {
+  font-size:22px;
+}
+
+.text-mod2 {
+  color:#F1AF15;
+}
+
+table {
+  background:white;
+}
+
+table {
+  background-color:rgba(13,14,14,0.77);
+  color:white;
+  border:#F1AF15 2px solid!important;
+}
+
+td {
+  border:#F1AF15 2px solid!important;
+}
+
+th {
+  border:#F1AF15 2px solid!important;
+}
+
+.fa-mod {
+  color:rgba(13,14,14,0.77);
+}
+
+#team {
+  background-color:white;
 }
 

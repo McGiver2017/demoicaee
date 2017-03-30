@@ -15,50 +15,51 @@
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/Dynamically-Queue-Videos.css">
-    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/css/MUSA_panel-table.css">
-    <link rel="stylesheet" href="assets/css/Table-with-search1.css">
-    <link rel="stylesheet" href="assets/css/Table-with-search.css">
-    <link rel="stylesheet" href="assets/css/Pricing-Tables.css">
-    <link rel="stylesheet" href="assets/css/Pricing-Tables1.css">
-    <link rel="stylesheet" href="assets/css/MUSA_panel-table1.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team.css">
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Tables.css">
     <link rel="stylesheet" href="assets/css/Video-Responsive.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search.css">
+    <link rel="stylesheet" href="assets/css/Dynamically-Queue-Videos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top fondo-nav navigation-clean">
-        <div class="container">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#" style="color:#FBAD00;">Control I CAEE</a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    <div>
+        <nav class="navbar navbar-inverse navbar-fixed-top fondo-nav navigation-clean" data-aos="zoom-in" data-aos-offset="50" data-aos-once="true">
+            <div class="container">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#" style="color:#FBAD00;">Control I CAEE</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="#">Inicio </a></li>
+                        <li role="presentation"><a href="index.html">Registrar Participantes</a></li>
+                        <li role="presentation"><a href="mostrar.html">Mostrar Participantes</a></li>
+                        <li role="presentation"><a href="ponentes.html">Ponentes </a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Generar Lista<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="#">First Item</a></li>
+                                <li role="presentation"><a href="#">Second Item</a></li>
+                                <li role="presentation"><a href="#">Third Item</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active" role="presentation"><a href="#">Inicio </a></li>
-                    <li role="presentation"><a href="index.html">Registrar Participantes</a></li>
-                    <li role="presentation"><a href="mostrar.html">Mostrar Participantes</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Generar Lista<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li role="presentation"><a href="#">First Item</a></li>
-                            <li role="presentation"><a href="#">Second Item</a></li>
-                            <li role="presentation"><a href="#">Third Item</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container cont-mod">
-        <h1 class="text-center text-mod">Lista de Participantes</h1>
-        <div class="form-group pull-right">
+        </nav>
+    </div>
+    <section data-aos="fade-up">
+        <div class="container fondo-img-1 text-mod2 cont-mod">
+            <h1 class="text-center text-mod">Lista de Participantes</h1>
+                <div class="form-group pull-right">
     <input type="text" class="search form-control" placeholder="Escriba alguna referencia">
 </div>
 <span class="counter pull-right"></span>
-<table class="table table-hover table-bordered results">
+<table class="table table-bordered results">
   <thead>
     <tr>
       <th>#</th>
@@ -67,6 +68,8 @@
       <th class="col-md-2 col-xs-2 hidden-xs">Correo</th>
       <th class="col-md-2 col-xs-2 hidden-xs">Universidad</th>
       <th class="col-md-2 col-xs-6">Categoria</th>
+      <th class="col-md-2 col-xs-6">Estado</th>
+      <th class="col-md-2 col-xs-6">Operacion</th>
     </tr>
     <tr class="warning no-result">
       <td colspan="4"><i class="fa fa-warning"></i> No se encontro lo que buscabas</td>
@@ -80,6 +83,9 @@
       <td class="hidden-xs">mxcgiver12@gmail.com</td>
       <td class="hidden-xs">Universidad Nacional de Ucayali</td>
       <td>Estudiante</td>
+      <td>Pendiente</td>
+        <td><button><i class="glyphicon glyphicon-remove fa-mod"></i></button>
+            <button><i class="glyphicon glyphicon-info-sign fa-mod"></i></button></td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -88,6 +94,9 @@
       <td class="hidden-xs">luis@gmail.com</td>
       <td class="hidden-xs">Universidad Nacional de Ucayali</td>
       <td>Estudiante</td>
+      <td>Pendiente</td>
+      <td><button><i class="glyphicon glyphicon-remove fa-mod"></i></button>
+        <button><i class="glyphicon glyphicon-info-sign fa-mod"></i></button></td>
     </tr>
       <tr>
       <th scope="row">3</th>
@@ -96,10 +105,228 @@
       <td class="hidden-xs">tony@gmail.com</td>
       <td class="hidden-xs">Universidad Nacional de Ucayali</td>
       <td>Estudiante</td>
+      <td>Pendiente</td>
+    <td><button><i class="glyphicon glyphicon-remove fa-mod"></i></button>
+         <button><i class="glyphicon glyphicon-info-sign fa-mod"></i></button></td>
     </tr>
     
   </tbody>
 </table>
+        </div>
+    </section>
+    <section data-aos="fade-up">
+        <div class="container fondo-img-1 cont-mod">
+            <h2 class="text-center text-mod" data-aos="fade-up">Datos del Participante</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Nombre: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont1">
+                                    <input class="input-sm form-control" type="text" name="reg1_nombre" required="" placeholder="Ingrese nombre" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg1_nombre">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos1_nombre">Bryan Mc Giver</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row" data-aos="fade-right">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12">Apellidos: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont2">
+                                    <input class="input-sm form-control" type="text" name="reg2_apellidos" required="" placeholder="Ingrese Apellidos" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg2_apellido">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos2_apellido">Avila Potocarrero</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">DNI: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont3">
+                                    <input class="input-sm form-control" type="text" name="reg3_dni" required="" placeholder="Ingrese nº de DNI" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg3_dni">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos3_dni">71450637 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Departamento: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont4">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle bot-mod" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg4_departamento">Seleccione un departamento <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li role="presentation"><a href="#">First Item</a></li>
+                                            <li role="presentation"><a href="#">Second Item</a></li>
+                                            <li role="presentation"><a href="#">Third Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos4_departamento">Ucayali </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Provincia: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont5">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg5_provincia">Seleccione una provincia <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li role="presentation"><a href="#">First Item</a></li>
+                                            <li role="presentation"><a href="#">Second Item</a></li>
+                                            <li role="presentation"><a href="#">Third Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos5_provincia">Coronel Portillo</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Distrito: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont6">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg6_distrito">Seleccione un distrito <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li role="presentation"><a href="#">First Item</a></li>
+                                            <li role="presentation"><a href="#">Second Item</a></li>
+                                            <li role="presentation"><a href="#">Third Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos6_distrito">Calleria </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Universidad: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont7">
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg7_universidad">Seleccione una Universidad <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li role="presentation"><a href="#">First Item</a></li>
+                                            <li role="presentation"><a href="#">Second Item</a></li>
+                                            <li role="presentation"><a href="#">Third Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos7_universidad">Universidad Nacional de Ucayali</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Celular: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont8">
+                                    <input class="input-sm form-control" type="text" name="reg8_celular" required="" placeholder="Ingrese nº de celular" minlength="100" autocomplete="on" inputmode="numeric" data-aos="fade-up" data-aos-delay="100" id="reg8_celular">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos8_celular">920210374 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Correo: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont9">
+                                    <input class="input-sm form-control" type="text" name="reg9_email" required="" placeholder="Ingrese email" minlength="100" autocomplete="on" inputmode="email" data-aos="fade-up" data-aos-delay="100" id="reg9_email">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos9_email">xmcgiver12@gmail.com </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Baucher: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont10">
+                                    <input class="input-sm form-control" type="text" name="reg10_baucher" required="" placeholder="Ingrese nº de Baucher" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg10_codb">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos10_codb">15486768894122444 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Adjuntar: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont11">
+                                    <input type="file" data-aos="fade-up" id="reg11_ubb">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos11_ubb">0001-peru </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group row">
+                                <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Seleccione: </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden" id="cont12">
+                                    <div class="btn-group" role="group" id="reg12_tipo">
+                                        <button class="btn btn-default" type="button">Estudiante </button>
+                                        <button class="btn btn-default" type="button">Profesional </button>
+                                        <button class="btn btn-default" type="button">Publico Interesado</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label class="control-label text-mod label-formulario" data-aos="fade-right" id="mos12_tipo">Estudiante </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group has-success row">
+                                <label class="control-label hidden-xs label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right"> </label>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" data-aos="fade-up">
+                                    <button class="btn btn-default" type="button" style="margin:0px;">Guardar </button>
+                                    <button class="btn btn-default" type="button">Validar </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up"><img src="assets/img/ejemplobaucher.png" width="100%" height="100%" style="width:27rem;height:50rem;"></div>
+            </div>
+        </div>
+    </section>
+    <div class="fondo-nav footer-basic" style="padding:15px 0px;margin:0px;height:70px;">
+        <footer>
+            <p class="copyright">Icaee Pucallpa © 2017</p>
+        </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -108,7 +335,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="assets/js/Pricing-Tables.js"></script>
-    <script src="assets/js/Pricing-Tables1.js"></script>
+    <script src="assets/js/scrip_pers.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/Table-with-search.js"></script>
 </body>
