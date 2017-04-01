@@ -64,7 +64,7 @@ html, body {
 
 #cdt.widget-wrapper {
   width:437px;
-  height:224px;
+  height:60px;
   position:relative;
   margin:auto;
 }
@@ -75,7 +75,7 @@ html, body {
 }
 
 #cdt .spr {
-  background-image:url(https://d29am0ph5s0t8u.cloudfront.net/production/cdt/widgets/sprites/image/1755689/oc-sprite.png?version=58cd8082-16);
+  /*background-image:url(https://d29am0ph5s0t8u.cloudfront.net/production/cdt/widgets/sprites/image/1755689/oc-sprite.png?version=58cd8082-16);*/
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -87,8 +87,13 @@ html, body {
 
 #cdt .counter-wrapper {
   width:416px;
-  height:112.5px;
+  height:94px;
   margin-left:21px;
+  border-right-width:1em;
+  border-top-width:10px;
+  border-right-width:1em;
+  border-bottom-width:thick;
+  border-left-width:thin;
 }
 
 #cdt .counter-wrapper .counter-item {
@@ -102,7 +107,7 @@ html, body {
 }
 
 #cdt .counter-wrapper .counter-group {
-  height:75px;
+  height:90px;
   float:left;
   position:relative;
   overflow:hidden;
@@ -110,7 +115,7 @@ html, body {
 
 #cdt .counter-group .unit-label {
   position:absolute;
-  height:27px;
+  height:20px;
   width:75px;
   left:0;
   top:50px;
@@ -149,5 +154,15 @@ html, body {
   padding-top:6rem;
   height:100%;
   text-align:center;
+}
+
+.cont-reloj {
+  background-color:rgba(253, 233, 2,0.4);
+  /*background:white;*/
+  color:white!important;
+}
+
+.font-mod {
+  font-family:'Indie Flower', cursive!important;
 }
 
