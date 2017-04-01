@@ -138,7 +138,7 @@ html, body {
 }
 
 #cdt .header {
-  height:74px;
+  height:0px;
   width:100%;
 }
 
@@ -163,6 +163,7 @@ html, body {
 }
 
 .font-mod {
-  font-family:'Indie Flower', cursive!important;
+  font-family:'Arial', cursive!important;
+  color:whith;
 }
 
