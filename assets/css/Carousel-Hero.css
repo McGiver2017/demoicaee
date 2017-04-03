@@ -133,3 +133,27 @@ th {
   background-color:white;
 }
 
+.reloj-rev {
+  color:white;
+  width:700px;
+  height:173px;
+  padding:10px;
+  box-sizing:border-box;
+  background-color:rgba(46,46,50,0.5);
+  text-align:center;
+}
+
+.contenedor-elementos {
+  font-family:Impact, Charcoal, sans-serif;
+  color:#efac2d;
+  position:absolute;
+  top:2rem;
+  right:0;
+  left:0;
+  width:85%;
+  margin:0 auto;
+  padding-top:6rem;
+  height:195px;
+  text-align:center;
+}
+
