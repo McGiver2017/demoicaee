@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/MUSA_no-more-tables.css">
+    <link rel="stylesheet" href="assets/css/Dynamically-Queue-Videos.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Tables.css">
+    <link rel="stylesheet" href="assets/css/MUSA_no-more-tables1.css">
+    <link rel="stylesheet" href="assets/css/MUSA_panel-table.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team.css">
+    <link rel="stylesheet" href="assets/css/TimeCircles.css">
+    <link rel="stylesheet" href="assets/css/Video-Responsive.css">
+</head>
+
+<body>
+    <section>
+        <div class="container fondo-img-1 cont-mod" style="margin-bottom:3rem;">
+            <h2 class="text-center text-mod">Participantes Inscritos en la Web</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group row">
+                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Filtro Por Fecha:</label>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <input class="input-sm" type="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                        <div class="form-group pull-right">
+    <input type="text" class="search form-control" placeholder="Escriba alguna referencia">
+</div>
+<span class="counter pull-right"></span>
+<table class="table table-bordered results">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th class="col-md-3 col-xs-6">Nombre Completo</th>
+      <th class="col-md-2 col-xs-2 hidden-xs hidden-sm">Departamento</th>
+      <th class="col-md-2 col-xs-2 hidden-xs">Correo</th>
+      <th class="col-md-2 col-xs-2 hidden-xs">Universidad</th>
+      <th class="col-md-2 col-xs-6 hidden-xs">Categoria</th>
+      <th class="col-md-2 col-xs-6">Estado</th>
+      <th class="col-md-2 col-xs-6">Operacion</th>
+    </tr>
+    <tr class="warning no-result">
+      <td colspan="4"><i class="fa fa-warning"></i> No se encontro lo que buscabas</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Bryan Mc Giver Avila Portocarrero</td>
+      <td class="hidden-xs hidden-sm">Ucayali</td>
+      <td class="hidden-xs">mxcgiver12@gmail.com</td>
+      <td class="hidden-xs">Universidad Nacional de Ucayali</td>
+      <td class="hidden-xs">Estudiante</td>
+      <td>Validado</td>
+        <td><button><i class="glyphicon glyphicon-remove fa-mod"></i></button>
+            <button><i class="glyphicon glyphicon-info-sign fa-mod"></i></button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jorge Luis Melendez Torres</td>
+      <td class="hidden-xs hidden-sm">Ucayali</td>
+      <td class="hidden-xs">luis@gmail.com</td>
+      <td class="hidden-xs">Universidad Nacional de Ucayali</td>
+      <td class="hidden-xs">Estudiante</td>
+      <td>Pendiente</td>
+      <td><button><i class="glyphicon glyphicon-remove fa-mod"></i></button>
+        <button><i class="glyphicon glyphicon-info-sign fa-mod"></i></button></td>
+    </tr>
+      <tr>
+      <th scope="row">3</th>
+      <td>Tony Jorman Monsalve</td>
+      <td class="hidden-xs hidden-sm">Ucayali</td>
+      <td class="hidden-xs">tony@gmail.com</td>
+      <td class="hidden-xs">Universidad Nacional de Ucayali</td>
+      <td class="hidden-xs">Estudiante</td>
+      <td>Pendiente</td>
+    <td><button><i class="glyphicon glyphicon-remove fa-mod"></i></button>
+         <button><i class="glyphicon glyphicon-info-sign fa-mod"></i></button></td>
+    </tr>
+    
+  </tbody>
+</table>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group row">
+                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Imprimir No validados:</label>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <button class="btn btn-default" type="button">Clic aqui</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="fondo-nav footer-basic">
+        <footer>
+            <p class="copyright">Icaee Pucallpa © 2017</p>
+        </footer>
+    </div>
+    <div>
+        <nav class="navbar navbar-inverse navbar-fixed-top fondo-nav navigation-clean" data-aos="zoom-in" data-aos-offset="50" data-aos-once="true">
+            <div class="container">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#" style="color:#FBAD00;">Control I CAEE</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="#">Inicio </a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Gestion de Registro <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                                <li role="presentation"><a href="p1registro_participantes.html">Registrar Partincipantes</a></li>
+                                <li role="presentation"><a href="p2registro_ponentes.html">Registrar Ponentes</a></li>
+                                <li role="presentation"><a href="p3registro_universidades.html">Registrar Universidades</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Mostrar<span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                                <li role="presentation"><a href="p4participante_registrados.html">Participantes Registrados</a></li>
+                                <li role="presentation"><a href="p5participantes_registrados_web.html">Participantes Registrados Via Web</a></li>
+                                <li role="presentation"><a href="p6participantes_validados.html">Participantes Validados</a></li>
+                                <li role="presentation"><a href="p7ponentes.html">Ponentes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Control de Ingresos<span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                                <li role="presentation"><a href="p8ingresos_web.html">Ingresos Via Web</a></li>
+                                <li role="presentation"><a href="p9ingreso_caja_chica">Ingreso Caja Chica</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Generar Lista<span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                                <li role="presentation"><a href="p10lista_participantes.html">Participantes </a></li>
+                                <li role="presentation"><a href="p11lista_ponentes.html">Ponentes </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Certificados<span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                                <li role="presentation"><a href="p12lista_certificados.html">Lista de Entregas</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Table-with-search.js"></script>
+    <script src="assets/js/Dynamically-Queue-Videos.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="assets/js/Pricing-Tables.js"></script>
+    <script src="assets/js/scrip_pers.js"></script>
+    <script src="assets/js/bs-animation-1.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/jquery.countdown.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

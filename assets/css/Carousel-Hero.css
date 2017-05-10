@@ -9,27 +9,27 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background-image:url('../../assets/img/hero-background-nature.jpg');
+  background-image:url('hero-background-nature.jpg');
 }
 
 div.jumbotron.hero-photography {
-  background-image:url('../../assets/img/hero-background-photography.jpg');
+  background-image:url('hero-background-photography.jpg');
 }
 
 div.jumbotron.hero-technology {
-  background-image:url('../../assets/img/hero-background-technology.jpg');
+  background-image:url('hero-background-technology.jpg');
 }
 
 div.jumbotron.hero-food {
-  background-image:url('../../assets/img/hero-background-food.jpg');
+  background-image:url('hero-background-food.jpg');
 }
 
 div.jumbotron.hero-music {
-  background-image:url('../../assets/img/hero-background-music.jpg');
+  background-image:url('hero-background-music.jpg');
 }
 
 div.jumbotron.hero-travel {
-  background-image:url('../../assets/img/hero-background-travel.jpg');
+  background-image:url('hero-background-travel.jpg');
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
@@ -68,7 +68,7 @@ a {
 }
 
 .fondo-img-1 {
-  /*background-image:url(../../assets/img/fondo1.jpg);*/
+  /*background-image:url(fondo1.jpg);*/
   background-size:cover;
   background-color:rgba(13,14,14,0.77);
   -webkit-box-shadow:-4px 13px 117px 17px rgba(0,0,0,0.75);
@@ -77,14 +77,12 @@ a {
 }
 
 .fondo-img-2 {
-  background-image:url(../../assets/img/fondo2.jpg);
+  background-image:url(fondo2.jpg);
   background-size:cover;
 }
 
 body {
-  background-image:url(../../assets/img/fondo2.jpg);
-  /*background-repeat:no-repeat;*/
-  /*background-position:top;*/
+  background-image:url(Fondoprueba.png);
   /*background-repeat:no-repeat;*/
   /*background-position:center center;*/
   /*background-attachment:fixed;*/
@@ -131,16 +129,6 @@ th {
 
 #team {
   background-color:white;
-}
-
-.reloj-rev {
-  color:white;
-  width:700px;
-  height:173px;
-  padding:10px;
-  box-sizing:border-box;
-  background-color:rgba(46,46,50,0.5);
-  text-align:center;
 }
 
 .contenedor-elementos {

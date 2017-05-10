@@ -8,19 +8,21 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/MUSA_panel-table.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/MUSA_no-more-tables.css">
     <link rel="stylesheet" href="assets/css/Dynamically-Queue-Videos.css">
     <link rel="stylesheet" href="assets/css/Table-with-search.css">
     <link rel="stylesheet" href="assets/css/Pricing-Tables.css">
+    <link rel="stylesheet" href="assets/css/MUSA_no-more-tables1.css">
+    <link rel="stylesheet" href="assets/css/MUSA_panel-table.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team.css">
@@ -30,198 +32,114 @@
 
 <body>
     <div>
-        <nav class="navbar navbar-inverse navbar-fixed-top fondo-nav navigation-clean" data-aos="zoom-in" data-aos-offset="50" data-aos-once="true">
+        <nav class="navbar navbar-inverse navbar-fixed-top fondo-nav navigation-clean">
             <div class="container">
-                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#" style="color:#FBAD00;">Control I CAEE</a>
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#" style="color:#FBAD00;"> I CAEE Pucallpa 2017</a>
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active" role="presentation"><a href="#">Inicio </a></li>
-                        <li role="presentation"><a href="index.html">Registrar Participantes</a></li>
-                        <li role="presentation"><a href="mostrar.html">Mostrar Participantes</a></li>
-                        <li role="presentation"><a href="ponentes.html">Ponentes </a></li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Generar Lista<span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation"><a href="#">First Item</a></li>
-                                <li role="presentation"><a href="#">Second Item</a></li>
-                                <li role="presentation"><a href="#">Third Item</a></li>
-                            </ul>
-                        </li>
+                        <li role="presentation"><a href="index.html">Actividades </a></li>
+                        <li role="presentation"><a href="index.html">Ponentes </a></li>
+                        <li role="presentation"><a href="#videos" target="_blank">Videos </a></li>
+                        <li role="presentation"><a href="#">Inscribirse </a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <section>
-        <div class="container fondo-img-1 cont-mod">
-            <h2 class="text-center text-mod">Registrar </h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Nombre: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <input class="input-sm form-control" type="text" name="reg1_nombre" required="" placeholder="Ingrese nombre" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg1_nombre">
-                        </div>
-                    </div>
+    <div class="container-fluid cont-mod" style="margin:0;padding:0;">
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active"><img src="assets/img/carousel7.jpg" alt="Slide Image"></div>
+                <div class="item"><img src="assets/img/carousel8.jpg" alt="Slide Image"></div>
+                <div class="item"><img src="assets/img/carousel9.jpg" alt="Slide Image"></div>
+            </div>
+            <div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1" role="button"
+                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+        </div>
+        <div class="hidden-xs contenedor-elementos"><img class="img-responsive" src="assets/img/fondo_reloj.png" style="margin:auto;padding:0;width:100%;height:auto;"></div>
+    </div>
+    <div class="container-fluid seccion" id="conteo">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="visible-sm-block row wrapper" id="holder">
+                    <div class="digits"></div>
+                    <div class="col-md-3 col-sm-3">
+                        <h3>Dias </h3></div>
+                    <div class="col-md-3 col-sm-3">
+                        <h3>Horas </h3></div>
+                    <div class="col-md-3 col-sm-3">
+                        <h3>Minutos </h3></div>
+                    <div class="col-md-3 col-sm-3">
+                        <h3>Segundos </h3></div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row" data-aos="fade-right">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12">Apellidos: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <input class="input-sm form-control" type="text" name="reg2_apellidos" required="" placeholder="Ingrese Apellidos" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg2_apellido">
-                        </div>
-                    </div>
+        </div>
+        <a href="cronograma.jpg" class="fondo_fecha"><img class="img-rounded img-responsive imagen" src="assets/img/img_bajo_reloj.png"></a>
+    </div>
+    <section id="nosotros_img"></section>
+    <section id="nosotros" class="seccion">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 opciones">
+    <div class="hijo">
+        <button class="btn btn-default btn-mod" type="button" id="sel_mensaje" onclick="ver_mensaje()">Mensaje</button>
+    </div>
+     <div class="hijo">
+        <button class="btn btn-default btn-mod seleccionado" type="button" id="sel_mision" onclick="ver_mision()">Misión</button>
+    </div>
+    <div class="hijo">
+        <button class="btn btn-default btn-mod" type="button" id="sel_vision" onclick="ver_vision()">Vision</button>
+    </div>
+    <div class="hijo">
+        <button class="btn btn-default btn-mod" type="button" id="sel_facultad" onclick="ver_facultad()">Sobre la Facultad</button>
+    </div>
+    <div class="hijo">
+        <button class="btn btn-default btn-mod" type="button" id="sel_organizadores" onclick="ver_organizadores()">Organizadores</button>
+    </div>
+    
+</div>
+            <div class="col-lg-6 col-md-6 opciones">
+                <div id="mision">
+                    <p class="lead text-uppercase text-center">Formar Profesionales con Caracter Integral y Competitivo Dominando Tecnologia de Punta, Realizar Investigaciones</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">DNI: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <input class="input-sm form-control" type="text" name="reg3_dni" required="" placeholder="Ingrese nº de DNI" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg3_dni">
-                        </div>
-                    </div>
+                <div id="mensaje">
+                    <p class="lead text-uppercase text-center hidden">En esta seccion se mostrara el mensaje En esta seccion se mostrara el mensaje En esta seccion se mostrara el mensaje En esta seccion se mostrara el mensaje En esta seccion se mostrara el mensaje En esta seccion se mostrara el mensaje</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Departamento: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle bot-mod" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg4_departamento">Seleccione un departamento <span class="caret"></span></button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li role="presentation"><a href="#">First Item</a></li>
-                                    <li role="presentation"><a href="#">Second Item</a></li>
-                                    <li role="presentation"><a href="#">Third Item</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div id="vision">
+                    <p class="lead text-uppercase text-center hidden">Se mostrara la vision</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Provincia: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg5_provincia">Seleccione una provincia <span class="caret"></span></button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li role="presentation"><a href="#">First Item</a></li>
-                                    <li role="presentation"><a href="#">Second Item</a></li>
-                                    <li role="presentation"><a href="#">Third Item</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div id="facultad">
+                    <p class="lead text-uppercase text-center hidden">Se mostrara organizadores</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Distrito: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg6_distrito">Seleccione un distrito <span class="caret"></span></button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li role="presentation"><a href="#">First Item</a></li>
-                                    <li role="presentation"><a href="#">Second Item</a></li>
-                                    <li role="presentation"><a href="#">Third Item</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Universidad: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" data-aos="fade-up" id="reg7_universidad">Seleccione una Universidad <span class="caret"></span></button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li role="presentation"><a href="#">First Item</a></li>
-                                    <li role="presentation"><a href="#">Second Item</a></li>
-                                    <li role="presentation"><a href="#">Third Item</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Celular: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <input class="input-sm form-control" type="text" name="reg8_celular" required="" placeholder="Ingrese nº de celular" minlength="100" autocomplete="on" inputmode="numeric" data-aos="fade-up" data-aos-delay="100" id="reg8_celular">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Correo: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <input class="input-sm form-control" type="text" name="reg9_email" required="" placeholder="Ingrese email" minlength="100" autocomplete="on" inputmode="email" data-aos="fade-up" data-aos-delay="100" id="reg9_email">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Baucher: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <input class="input-sm form-control" type="text" name="reg10_baucher" required="" placeholder="Ingrese nº de Baucher" minlength="100" autocomplete="on" data-aos="fade-up" data-aos-delay="100" id="reg10_codb">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Adjuntar: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <input type="file" data-aos="fade-up" id="reg11_ubb">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group row">
-                        <label class="control-label hidden-xs text-mod label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">Seleccione: </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" data-aos="fade-up">
-                            <div class="btn-group" role="group" id="reg12_tipo">
-                                <button class="btn btn-default" type="button">Estudiante </button>
-                                <button class="btn btn-default" type="button">Profesional </button>
-                                <button class="btn btn-default" type="button">Publico Interesado</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group has-success row">
-                        <label class="control-label hidden-xs label-formulario col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right"> </label>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <button class="btn btn-default" type="button">Guardar </button>
-                        </div>
-                    </div>
+                <div id="organizadores">
+                    <p class="lead text-uppercase text-center hidden">Se mostrara los organizadores</p>
                 </div>
             </div>
         </div>
     </section>
-    <div class="fondo-nav footer-basic">
-        <footer>
+    <section id="videos" class="hidden-xs">
+    <div class="container text-center">
+        <h1>Videos</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bM7SZ5SBzyY" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+    <div class="text-mod2 fondo-nav footer-basic">
+        <footer class="fondo-nav">
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li><a href="#">Inicio </a></li>
+                <li><a href="#">Actividades </a></li>
+                <li><a href="#">Ponentes </a></li>
+                <li><a href="#">Videos </a></li>
+                <li><a href="#">Inscribirse </a></li>
+            </ul>
             <p class="copyright">Icaee Pucallpa © 2017</p>
         </footer>
     </div>
@@ -232,11 +150,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="assets/js/Pricing-Tables.js"></script>
-    <script src="assets/js/TimeCircles.js"></script>
     <script src="assets/js/scrip_pers.js"></script>
-    <script src="assets/js/script_reloj.js"></script>
+    <script src="assets/js/bs-animation-1.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/jquery.countdown.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
